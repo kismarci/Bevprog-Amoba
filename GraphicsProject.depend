@@ -144,3 +144,63 @@
 1587318125 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\iii beadando\src\widget.cpp
 	"Widget.h"
 
+1585915577 source:c:\users\marci\documents\github\bevprog-amoba\src\checkbox.cpp
+	"Checkbox.h"
+
+1585841917 c:\users\marci\documents\github\bevprog-amoba\include\checkbox.h
+	<Widget.h>
+
+1588873543 c:\users\marci\documents\github\bevprog-amoba\include\widget.h
+	"graphics.hpp"
+	"vector"
+
+1488260528 c:\users\marci\documents\github\bevprog-amoba\include\graphics.hpp
+	<string>
+
+1588874657 source:c:\users\marci\documents\github\bevprog-amoba\src\text_input.cpp
+	"Text_input.h"
+
+1588874519 c:\users\marci\documents\github\bevprog-amoba\include\text_input.h
+	<Textbox.h>
+
+1588873317 c:\users\marci\documents\github\bevprog-amoba\include\textbox.h
+	<Widget.h>
+
+1588873446 source:c:\users\marci\documents\github\bevprog-amoba\src\textbox.cpp
+	"Textbox.h"
+
+1587318125 source:c:\users\marci\documents\github\bevprog-amoba\src\widget.cpp
+	"Widget.h"
+
+1588894380 source:c:\users\marci\documents\github\bevprog-amoba\src\jatekmester.cpp
+	"JatekMester.h"
+
+1588894379 c:\users\marci\documents\github\bevprog-amoba\include\jatekmester.h
+
+1588895159 source:c:\users\marci\documents\github\bevprog-amoba\src\amoba.cpp
+	"Amoba.h"
+
+1588894779 c:\users\marci\documents\github\bevprog-amoba\include\amoba.h
+	<Widget.h>
+
+1588895179 source:c:\users\marci\documents\github\bevprog-amoba\main.cpp
+	"graphics.hpp"
+	"time.h"
+	"stdlib.h"
+	<fstream>
+	"Widget.h"
+	"Textbox.h"
+	"Text_input.h"
+	"Button.hpp"
+	"Ablak.hpp"
+	"Amoba.h"
+
+1588873509 c:\users\marci\documents\github\bevprog-amoba\include\button.hpp
+	<Textbox.h>
+	<functional>
+	<iostream>
+
+1588892876 c:\users\marci\documents\github\bevprog-amoba\include\ablak.hpp
+	"graphics.hpp"
+	"Widget.h"
+
