@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GraphicsProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GraphicsProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GraphicsProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O2" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="lib/libgraphics.a" />
+			<Add library="lib/libgraphicsd.a" />
+			<Add library="lib/libsdl_ttf.a" />
+			<Add library="lib/libSDL.dll.a" />
+			<Add library="lib/libSDLmain.a" />
+			<Add directory="lib" />
+		</Linker>
+		<Unit filename="include/Ablak.hpp" />
+		<Unit filename="include/Button.hpp" />
+		<Unit filename="include/Checkbox.h" />
+		<Unit filename="include/Text_input.h" />
+		<Unit filename="include/Textbox.h" />
+		<Unit filename="include/Widget.h" />
+		<Unit filename="include/kivalaszto.h" />
+		<Unit filename="include/szambeallito.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Checkbox.cpp" />
+		<Unit filename="src/Text_input.cpp" />
+		<Unit filename="src/Textbox.cpp" />
+		<Unit filename="src/Widget.cpp" />
+		<Unit filename="src/kivalaszto.cpp" />
+		<Unit filename="src/szambeallito.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1583421260 source:c:\users\niko\desktop\postit orai\main.cpp
+	"graphics.hpp"
+	"stdlib.h"
+	"time.h"
+	"vector"
+
+1488256928 c:\users\niko\desktop\postit orai\include\graphics.hpp
+	<string>
+
+1587318125 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\ii. beadando\src\widget.cpp
+	"Widget.h"
+
+1587318098 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\ii. beadando\include\widget.h
+	"graphics.hpp"
+	"vector"
+
+1488260528 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\ii. beadando\include\graphics.hpp
+	<string>
+
+1587318258 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\ii. beadando\src\szambeallito.cpp
+	"szambeallito.h"
+
+1587318162 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\ii. beadando\include\szambeallito.h
+	<Widget.h>
+
+1587322044 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\ii. beadando\main.cpp
+	"graphics.hpp"
+	"time.h"
+	"stdlib.h"
+	<fstream>
+	"Widget.h"
+	"szambeallito.h"
+	"kivalaszto.h"
+
+1587323084 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\ii. beadando\src\kivalaszto.cpp
+	"kivalaszto.h"
+	<iostream>
+
+1587321543 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\ii. beadando\include\kivalaszto.h
+	<Widget.h>
+
+1588892352 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\main.cpp
+	"graphics.hpp"
+	"time.h"
+	"stdlib.h"
+	<fstream>
+	"Widget.h"
+	"szambeallito.h"
+	"kivalaszto.h"
+	"Textbox.h"
+	"Text_input.h"
+	"Button.hpp"
+	"ablak.hpp"
+
+1488260528 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\include\graphics.hpp
+	<string>
+
+1588873543 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\include\widget.h
+	"graphics.hpp"
+	"vector"
+
+1587318162 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\include\szambeallito.h
+	<Widget.h>
+
+1587321543 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\include\kivalaszto.h
+	<Widget.h>
+
+1587323084 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\src\kivalaszto.cpp
+	"kivalaszto.h"
+	<iostream>
+
+1587318258 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\src\szambeallito.cpp
+	"szambeallito.h"
+
+1587318125 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\src\widget.cpp
+	"Widget.h"
+
+1585915577 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\src\checkbox.cpp
+	"Checkbox.h"
+
+1585841917 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\include\checkbox.h
+	<Widget.h>
+
+1588874657 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\src\text_input.cpp
+	"Text_input.h"
+
+1588874519 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\include\text_input.h
+	<Textbox.h>
+
+1588873317 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\include\textbox.h
+	<Widget.h>
+
+1588873446 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\src\textbox.cpp
+	"Textbox.h"
+
+1585844506 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\src\drag_textbox.cpp
+	"Drag_textbox.h"
+
+1585844367 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\include\drag_textbox.h
+	<Textbox.h>
+	<Drag_widget.h>
+
+1588872702 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\include\drag_widget.h
+	<Widget.h>
+
+1586731786 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\src\drag_widget.cpp
+	"Drag_widget.h"
+
+1588873509 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\include\button.hpp
+	<Textbox.h>
+	<functional>
+	<iostream>
+
+1588892698 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\sajat_widgetkeszlet\include\ablak.hpp
+	"graphics.hpp"
+	"Widget.h"
+
+1585915577 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\iii beadando\src\checkbox.cpp
+	"Checkbox.h"
+
+1585841917 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\iii beadando\include\checkbox.h
+	<Widget.h>
+
+1588873543 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\iii beadando\include\widget.h
+	"graphics.hpp"
+	"vector"
+
+1488260528 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\iii beadando\include\graphics.hpp
+	<string>
+
+1588874657 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\iii beadando\src\text_input.cpp
+	"Text_input.h"
+
+1588874519 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\iii beadando\include\text_input.h
+	<Textbox.h>
+
+1588873317 c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\iii beadando\include\textbox.h
+	<Widget.h>
+
+1588873446 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\iii beadando\src\textbox.cpp
+	"Textbox.h"
+
+1587318125 source:c:\users\marci\onedrive\ppke-tárgyak\bevprog ii\iii beadando\src\widget.cpp
+	"Widget.h"
+
