@@ -172,23 +172,24 @@
 1587318125 source:c:\users\marci\documents\github\bevprog-amoba\src\widget.cpp
 	"Widget.h"
 
-1589044886 source:c:\users\marci\documents\github\bevprog-amoba\src\jatekmester.cpp
+1589067807 source:c:\users\marci\documents\github\bevprog-amoba\src\jatekmester.cpp
 	"JatekMester.h"
 
-1589044903 c:\users\marci\documents\github\bevprog-amoba\include\jatekmester.h
+1589067503 c:\users\marci\documents\github\bevprog-amoba\include\jatekmester.h
 	<Amoba.h>
 	<vector>
 
-1589030554 source:c:\users\marci\documents\github\bevprog-amoba\src\amoba.cpp
+1589067861 source:c:\users\marci\documents\github\bevprog-amoba\src\amoba.cpp
 	"Amoba.h"
 	<string.h>
 
-1589044996 c:\users\marci\documents\github\bevprog-amoba\include\amoba.h
+1589069251 c:\users\marci\documents\github\bevprog-amoba\include\amoba.h
 	<Widget.h>
 	<functional>
 	<JatekMester.h>
+	<Textbox.h>
 
-1588977185 source:c:\users\marci\documents\github\bevprog-amoba\main.cpp
+1589067998 source:c:\users\marci\documents\github\bevprog-amoba\main.cpp
 	"graphics.hpp"
 	"time.h"
 	"stdlib.h"
@@ -206,7 +207,7 @@
 	<functional>
 	<iostream>
 
-1589021318 c:\users\marci\documents\github\bevprog-amoba\include\ablak.hpp
+1589047640 c:\users\marci\documents\github\bevprog-amoba\include\ablak.hpp
 	"graphics.hpp"
 	"Widget.h"
 

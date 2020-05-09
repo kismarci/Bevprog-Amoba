@@ -16,8 +16,9 @@ class JatekMester
         Amoba *amb;
         int in_line_counter;
         void find_row(const int*, int);
-        void find_col();
-        void find_diag(const int*);
+        void find_col(const int*, int);
+        void find_diag(const int*,int);
+        void dontetlen(const int*,int);
         int allas;
 
 };

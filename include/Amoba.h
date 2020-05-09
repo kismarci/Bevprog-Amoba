@@ -4,6 +4,7 @@
 #include <functional>
 class JatekMester;
 #include <JatekMester.h>
+#include <Textbox.h>
 
 class Amoba : public Widget
 {
@@ -23,7 +24,10 @@ class Amoba : public Widget
         int lepeskoz;
         JatekMester *jm;
         int(JatekMester::*amoba_func)(const int*, int);
-        int allas;
+        int allas=0;
+        int eredmeny_kezeles();
+        void draw_x();
+        void draw_o(int, int);
 };
 
 #endif // AMOBA_H
