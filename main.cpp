@@ -9,13 +9,16 @@
 #include "Button.hpp"
 #include "Ablak.hpp"
 #include "Amoba.h"
+#include "JatekMester.h"
 
 
 int main()
 {
     Ablak Ablakom(X,Y);
     //widgetek.push_back(new Textbox(400,450,100,50,"static textb"));
-    Ablakom.widgetek.push_back(new Amoba(0,0,X-1, Y-1,15));
-
+    Amoba* amob;
+    JatekMester* jatek=new JatekMester(amob);
+    amob=new Amoba(0,0,X-1, Y-1,15,jatek,JatekMester::szamlalo);
+    Ablakom.widgetek.push_back(amob);
     Ablakom.run();
 }

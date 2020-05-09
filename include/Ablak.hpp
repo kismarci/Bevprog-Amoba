@@ -27,7 +27,7 @@ int Ablak::run(){
     Widget* selected = nullptr;
     event ev;
     gin.timer(30);
-    while(gin >> ev){
+    while(gin >> ev && ev.keycode!=key_escape){
         if(ev.type == ev_mouse){
             if(ev.button == btn_left){
                 if(selected){
