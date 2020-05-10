@@ -1,6 +1,6 @@
 #include "JatekMester.h"
 
-JatekMester::JatekMester(): allas(0)
+JatekMester::JatekMester()
 {
 }
 

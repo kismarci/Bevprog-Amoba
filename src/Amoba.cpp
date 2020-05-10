@@ -13,12 +13,13 @@ Amoba::Amoba(int x, int y, int w, int h, int n, JatekMester *jj, int(JatekMester
     jatekos=true;///true ha az elso, false ha masodik jatekos kovetkezik
     jm=jj;
     amoba_func=f;
-    new_game=new Textbox(sizex/2-50,sizey/3,100,50,"Új játék");
+    new_game=new Textbox(sizex/2-75,sizey/3,150,40,"Uj jatek");
 }
 
 Amoba::~Amoba()
 {
-    //dtor
+    delete []kijelolt;
+    delete []valasztott;
 }
 
 void Amoba::rajzol(){
@@ -86,15 +87,15 @@ void Amoba::kijelol(const int& mx, const int& my){
 
 int Amoba::eredmeny_kezeles(){
     if(allas==1){
-        std::string s = !jatekos ? "Kereszt": "Kör";
-        int tsize = gout.twidth("Játék vége! A  xxxx nyert");
+        std::string s = !jatekos ? "Kereszt": "Kor";
+        int tsize = gout.twidth("Jatek vege! A  xxxx nyert");
         gout << color(0, 0, 0) << move_to(left+(sizex/2 - tsize/2), top+sizey/2+gout.cdescent())
-        << text("Játék vége! A ")<<text(s)<<text(" nyert.");
+        << text("Jatek vege! A ")<<text(s)<<text(" nyert.");
     }
     if(allas==2){
-        int tsize = gout.twidth("Játék vége! A játék döntetlen.");
+        int tsize = gout.twidth("Jatek vege! A jatek dontetlen.");
         gout << color(0, 0, 0) << move_to(left+(sizex/2 - tsize/2), top+sizey/2+gout.cdescent())
-        << text("Játék vége! A játék döntetlen.");
+        << text("Jatek vege! A jatek dontetlen.");
     }
     new_game->rajzol();
 }
