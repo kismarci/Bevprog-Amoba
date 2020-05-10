@@ -1,11 +1,11 @@
 #include "JatekMester.h"
 
-JatekMester::JatekMester(Amoba *a): amb(a), in_line_counter(0), allas(0)
+JatekMester::JatekMester(): allas(0)
 {
 }
 
 int JatekMester::szamlalo(const int *v, int palya_meret){
-    //printf("%i", v[1]);
+    allas=0;
     find_row(v, palya_meret);
     find_col(v,palya_meret);
     find_diag(v,palya_meret);

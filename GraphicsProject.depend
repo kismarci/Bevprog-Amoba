@@ -150,46 +150,47 @@
 1585841917 c:\users\marci\documents\github\bevprog-amoba\include\checkbox.h
 	<Widget.h>
 
-1588873543 c:\users\marci\documents\github\bevprog-amoba\include\widget.h
+1589112806 c:\users\marci\documents\github\bevprog-amoba\include\widget.h
 	"graphics.hpp"
 	"vector"
 
 1488260528 c:\users\marci\documents\github\bevprog-amoba\include\graphics.hpp
 	<string>
 
-1588874657 source:c:\users\marci\documents\github\bevprog-amoba\src\text_input.cpp
+1589106689 source:c:\users\marci\documents\github\bevprog-amoba\src\text_input.cpp
 	"Text_input.h"
 
 1588874519 c:\users\marci\documents\github\bevprog-amoba\include\text_input.h
 	<Textbox.h>
 
-1588873317 c:\users\marci\documents\github\bevprog-amoba\include\textbox.h
+1589106631 c:\users\marci\documents\github\bevprog-amoba\include\textbox.h
 	<Widget.h>
 
-1588873446 source:c:\users\marci\documents\github\bevprog-amoba\src\textbox.cpp
+1589115570 source:c:\users\marci\documents\github\bevprog-amoba\src\textbox.cpp
 	"Textbox.h"
 
 1587318125 source:c:\users\marci\documents\github\bevprog-amoba\src\widget.cpp
 	"Widget.h"
 
-1589067807 source:c:\users\marci\documents\github\bevprog-amoba\src\jatekmester.cpp
+1589114831 source:c:\users\marci\documents\github\bevprog-amoba\src\jatekmester.cpp
 	"JatekMester.h"
 
-1589067503 c:\users\marci\documents\github\bevprog-amoba\include\jatekmester.h
-	<Amoba.h>
+1589106366 c:\users\marci\documents\github\bevprog-amoba\include\jatekmester.h
 	<vector>
 
-1589067861 source:c:\users\marci\documents\github\bevprog-amoba\src\amoba.cpp
+1589069951 source:c:\users\marci\documents\github\bevprog-amoba\src\amoba.cpp
 	"Amoba.h"
 	<string.h>
+	<math.h>
 
-1589069251 c:\users\marci\documents\github\bevprog-amoba\include\amoba.h
+1589115430 c:\users\marci\documents\github\bevprog-amoba\include\amoba.h
 	<Widget.h>
 	<functional>
 	<JatekMester.h>
+	<Button.hpp>
 	<Textbox.h>
 
-1589067998 source:c:\users\marci\documents\github\bevprog-amoba\main.cpp
+1589106414 source:c:\users\marci\documents\github\bevprog-amoba\main.cpp
 	"graphics.hpp"
 	"time.h"
 	"stdlib.h"
@@ -202,7 +203,7 @@
 	"Amoba.h"
 	"JatekMester.h"
 
-1588873509 c:\users\marci\documents\github\bevprog-amoba\include\button.hpp
+1589106666 c:\users\marci\documents\github\bevprog-amoba\include\button.hpp
 	<Textbox.h>
 	<functional>
 	<iostream>

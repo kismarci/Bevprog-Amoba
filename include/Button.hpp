@@ -17,13 +17,10 @@ protected:
 private:
     T* parent;
     void (T::*btn_func)();///tagfuggveny pointer, a File_display egy tagfgv-re fog mutatni
-    //void (*btn_func)(int);
-    //std::fuction<void(int)> btn_func;
-    //T btn_func; ///igy barmilyen szignaturau fgv-re jo, a konstruktorban adom meg, hogy milyen fgv-lesz
 };
 
 template <class T>
-Button<T>::Button(int a, int b, int sx, int sy, std::string data, T* p, void (T::*bf)()) : Widget(a,b,sx,sy), Textbox(a,b,sx,sy,data), parent(p), btn_func(bf){}
+Button<T>::Button(int a, int b, int sx, int sy, std::string data, T* p, void (T::*bf)()) : Textbox(a,b,sx,sy,data), parent(p), btn_func(bf){}
 
 template <class T>
 Button<T>::~Button(){}

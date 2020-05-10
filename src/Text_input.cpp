@@ -2,7 +2,7 @@
 
 using namespace genv;
 
-Text_input::Text_input(int a, int b, int sx, int sy, std::string d) : Widget(a,b,sx,sy), Textbox(a,b,sx,sy,d)
+Text_input::Text_input(int a, int b, int sx, int sy, std::string d) : Textbox(a,b,sx,sy,d)
 {}
 
 Text_input::~Text_input()

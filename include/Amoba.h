@@ -2,8 +2,9 @@
 #define AMOBA_H
 #include <Widget.h>
 #include <functional>
-class JatekMester;
+//class JatekMester; ///ez a cyclic dependendy megoldasahoz kellett
 #include <JatekMester.h>
+#include <Button.hpp>
 #include <Textbox.h>
 
 class Amoba : public Widget
@@ -28,6 +29,7 @@ class Amoba : public Widget
         int eredmeny_kezeles();
         void draw_x();
         void draw_o(int, int);
+        Textbox *new_game;
 };
 
 #endif // AMOBA_H

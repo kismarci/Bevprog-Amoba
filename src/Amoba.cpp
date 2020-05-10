@@ -13,6 +13,7 @@ Amoba::Amoba(int x, int y, int w, int h, int n, JatekMester *jj, int(JatekMester
     jatekos=true;///true ha az elso, false ha masodik jatekos kovetkezik
     jm=jj;
     amoba_func=f;
+    new_game=new Textbox(sizex/2-50,sizey/3,100,50,"Új játék");
 }
 
 Amoba::~Amoba()
@@ -51,13 +52,20 @@ void Amoba::event_handle(const event& e){
                         if(valasztott[j*palya_meret+i]==0){///ha még üres a mezo
                             valasztott[j*palya_meret+i] = jatekos ? 1 : -1; ///elsõ->1, masodik->-1;
                             jatekos=!jatekos;
-                           // printf("%i %i\n", i, j);
-                            //printf("%i", valasztott[1]);
                         }
                     }
                 }
             }
             allas=(jm->*amoba_func)(valasztott, palya_meret);
+        }
+    }else{
+        if(new_game->is_selected(e.pos_x,e.pos_y) && e.button==btn_left){
+            for(int j=0;j<palya_meret;j++){ ///sor index
+                for(int i=0;i<palya_meret;i++){ ///oszlop index
+                    valasztott[j*palya_meret+i]=0;
+                }
+            }
+        allas=0;
         }
     }
 }
@@ -88,6 +96,7 @@ int Amoba::eredmeny_kezeles(){
         gout << color(0, 0, 0) << move_to(left+(sizex/2 - tsize/2), top+sizey/2+gout.cdescent())
         << text("Játék vége! A játék döntetlen.");
     }
+    new_game->rajzol();
 }
 
 
