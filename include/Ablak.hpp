@@ -16,6 +16,7 @@ class Ablak
 
 Ablak::Ablak(int x, int y){
     gout.open(X,Y);
+    gout.load_font("LiberationSans-Regular.ttf",25);
 }
 
 
@@ -27,7 +28,7 @@ int Ablak::run(){
     Widget* selected = nullptr;
     event ev;
     gin.timer(30);
-    while(gin >> ev){
+    while(gin >> ev && ev.keycode!=key_escape){
         if(ev.type == ev_mouse){
             if(ev.button == btn_left){
                 if(selected){
@@ -52,7 +53,6 @@ int Ablak::run(){
         if(ev.type==ev_timer){
             clear_window();
             for(auto w : widgetek){
-                w->update();
                 w->rajzol();
             }
         }
@@ -63,7 +63,6 @@ int Ablak::run(){
         delete widgetek[i];
         widgetek[i] = nullptr;
     }
-
     return 0;
 }
 

@@ -4,7 +4,7 @@
 #include <Widget.h>
 
 
-class Textbox : public virtual Widget ///Virtuális öröklõdés
+class Textbox : public Widget
 {
     public:
         Textbox() = delete;

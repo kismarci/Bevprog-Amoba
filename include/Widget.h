@@ -13,7 +13,6 @@ class Widget
         virtual void rajzol() = 0;
         virtual void event_handle(const genv::event&) = 0;
         virtual void kijelol(const int&, const int&);
-        virtual void update();
         virtual bool is_selected(const int&, const int&);
         virtual void unfocus();
         virtual void move_widget(const int&, const int&, const int&, const int&);

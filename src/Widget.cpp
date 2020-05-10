@@ -17,7 +17,6 @@ bool Widget::is_selected(const int& mx, const int& my){
     return false;
 }
 
-void Widget::update(){}
 void Widget::unfocus(){
     focus=false;
 }
