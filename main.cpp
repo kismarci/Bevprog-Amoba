@@ -3,9 +3,6 @@
 #include "stdlib.h"
 #include <fstream>
 #include "Widget.h"
-//#include "Checkbox.h" //not used
-//#include "Textbox.h"
-//#include "Text_input.h"
 #include "Ablak.hpp"
 #include "Amoba.h"
 #include "JatekMester.h"

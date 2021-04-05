@@ -5,7 +5,7 @@
 #include <iostream>
 
 
-template <class T> ///templatos osztaly, egy forditasi egysegben kell legyen, a T a konstruktorban derul ki, hogy milyen class
+template <class T>
 class Button : public Textbox{
 public:
     Button() = delete;
