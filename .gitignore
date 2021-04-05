@@ -1,1 +1,4 @@
 bin\
+*.o
+GraphicsProject.layout
+GraphicsProject.depend

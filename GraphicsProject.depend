@@ -150,40 +150,40 @@
 1585841917 c:\users\marci\documents\github\bevprog-amoba\include\checkbox.h
 	<Widget.h>
 
-1589123913 c:\users\marci\documents\github\bevprog-amoba\include\widget.h
+1596628178 c:\users\marci\documents\github\bevprog-amoba\include\widget.h
 	"graphics.hpp"
 	"vector"
 
 1488260528 c:\users\marci\documents\github\bevprog-amoba\include\graphics.hpp
 	<string>
 
-1589106689 source:c:\users\marci\documents\github\bevprog-amoba\src\text_input.cpp
+1596628178 source:c:\users\marci\documents\github\bevprog-amoba\src\text_input.cpp
 	"Text_input.h"
 
 1588874519 c:\users\marci\documents\github\bevprog-amoba\include\text_input.h
 	<Textbox.h>
 
-1589106631 c:\users\marci\documents\github\bevprog-amoba\include\textbox.h
+1596628178 c:\users\marci\documents\github\bevprog-amoba\include\textbox.h
 	<Widget.h>
 
-1589125260 source:c:\users\marci\documents\github\bevprog-amoba\src\textbox.cpp
+1596628178 source:c:\users\marci\documents\github\bevprog-amoba\src\textbox.cpp
 	"Textbox.h"
 
-1589123898 source:c:\users\marci\documents\github\bevprog-amoba\src\widget.cpp
+1596628178 source:c:\users\marci\documents\github\bevprog-amoba\src\widget.cpp
 	"Widget.h"
 
-1589125737 source:c:\users\marci\documents\github\bevprog-amoba\src\jatekmester.cpp
+1596628178 source:c:\users\marci\documents\github\bevprog-amoba\src\jatekmester.cpp
 	"JatekMester.h"
 
-1589106366 c:\users\marci\documents\github\bevprog-amoba\include\jatekmester.h
+1596628178 c:\users\marci\documents\github\bevprog-amoba\include\jatekmester.h
 	<vector>
 
-1589125685 source:c:\users\marci\documents\github\bevprog-amoba\src\amoba.cpp
+1596628178 source:c:\users\marci\documents\github\bevprog-amoba\src\amoba.cpp
 	"Amoba.h"
 	<string.h>
 	<math.h>
 
-1589123977 c:\users\marci\documents\github\bevprog-amoba\include\amoba.h
+1596628178 c:\users\marci\documents\github\bevprog-amoba\include\amoba.h
 	<Widget.h>
 	<functional>
 	<JatekMester.h>
